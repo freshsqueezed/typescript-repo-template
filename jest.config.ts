@@ -4,11 +4,6 @@ const config: Config.InitialOptions = {
   preset: 'ts-jest',
   testEnvironment: 'node',
   roots: ['src'],
-  // globals: {
-  //   'ts-jest': {
-  //     tsconfig: 'tsconfig.test.json',
-  //   },
-  // },
   transform: {
     ts: [
       'ts-jest',
