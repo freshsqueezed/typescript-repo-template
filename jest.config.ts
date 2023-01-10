@@ -5,7 +5,7 @@ const config: Config.InitialOptions = {
   testEnvironment: 'node',
   roots: ['src'],
   transform: {
-    ts: [
+    '.ts': [
       'ts-jest',
       {
         tsconfig: 'tsconfig.test.json',
